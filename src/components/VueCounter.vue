@@ -1,4 +1,5 @@
 <template>
+  <div class="font-bold">Mon titre</div>
   <div id="vue" class="counter">
       <button @click="subtract()">-</button>
       <pre>{{ count }}</pre>
