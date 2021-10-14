@@ -28,7 +28,7 @@ p {
 }
 
 .ced-link {
-  @apply inline-block -ml-4 rounded-3xl;
+  @apply flex -ml-4 rounded-3xl;
   @apply transition-colors duration-200;
   padding: 0.7em 0.9em 0.7em 0.9em;
   background-color: rgba(16, 135, 117, 0.1);
