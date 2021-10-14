@@ -83,7 +83,7 @@
               />
             </svg>
           </div>
-          Prisma comme ORM pour PostgreSQL
+          Prisma as my ORM for PostgreSQL
         </div>
       </a>
       <div class="font-sans mt-2">
