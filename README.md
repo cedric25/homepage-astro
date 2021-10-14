@@ -7,4 +7,4 @@
 - [tailwindcss](https://tailwindcss.com/)
 
 For the previous version built with [vite](https://github.com/vuejs/vite):  
-[https://github.com/cedric25/homepage](https://github.com/cedric25/homepage)
+👉 [https://github.com/cedric25/homepage](https://github.com/cedric25/homepage)
