@@ -7,7 +7,7 @@
       >&nbsp;🚀
     </p>
 
-    <!--    <h1 class="mt-20">-->
+    <!--    <h1 class="mt-16 sm:mt-20">-->
     <!--      I like-->
     <!--    </h1>-->
     <!--    <p>-->
@@ -17,7 +17,7 @@
     <!--      apollo, tailwindcss, WebStorm...-->
     <!--    </p>-->
 
-    <h1 class="mt-20">I code</h1>
+    <h1 class="mt-16 sm:mt-20">I code</h1>
     <div class="font-sans">My playground project where I like to try things:</div>
     <div class="ced-link-wrap">
       <a
@@ -50,7 +50,7 @@
       </span>
     </div>
 
-    <h1 class="mt-20">I write</h1>
+    <h1 class="mt-16 sm:mt-20">I write</h1>
     <WriteLink
       title="From vue-cli to vitejs"
       written-at="April 2021"
@@ -71,7 +71,7 @@
       />
     </div>
 
-    <h1 class="mt-20">I present</h1>
+    <h1 class="mt-16 sm:mt-20">I present</h1>
     <div class="my-4">
       <a href="https://prisma-talk.netlify.app/" target="_blank" rel="noopener" class="ced-link">
         <div class="flex items-center">
@@ -106,7 +106,7 @@
     <!--      </a>-->
     <!--    </p>-->
 
-    <h1 class="mt-20">I read</h1>
+    <h1 class="mt-16 sm:mt-20">I read</h1>
     <BooksRead />
   </div>
 </template>
