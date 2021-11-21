@@ -96,7 +96,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .shadow-white {
   box-shadow: 0 0 8px 0 white;
 }

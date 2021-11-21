@@ -142,7 +142,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .content-wrap {
   padding: 3rem 3rem 9rem 3rem;
   flex: 1;
