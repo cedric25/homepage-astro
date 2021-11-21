@@ -52,10 +52,17 @@
 
     <h1 class="mt-16 sm:mt-20">I write</h1>
     <WriteLink
-      title="From vue-cli to vitejs"
-      written-at="April 2021"
-      link="https://medium.com/nerd-for-tech/from-vue-cli-to-vitejs-648d2f5e031d"
+      title="Prisma to interact with my DB"
+      written-at="October 2021"
+      link="https://medium.com/nerd-for-tech/prisma-to-interact-with-my-db-13da91562600"
     />
+    <div class="mt-6">
+      <WriteLink
+        title="From vue-cli to vitejs"
+        written-at="April 2021"
+        link="https://medium.com/nerd-for-tech/from-vue-cli-to-vitejs-648d2f5e031d"
+      />
+    </div>
     <div class="mt-6">
       <WriteLink
         title="Goodbye submit buttons"
@@ -73,38 +80,17 @@
 
     <h1 class="mt-16 sm:mt-20">I present</h1>
     <div class="my-4">
-      <a href="https://prisma-talk.netlify.app/" target="_blank" rel="noopener" class="ced-link">
-        <div class="flex items-center">
-          <div class="w-3 mr-2">
-            <svg x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
-              <path
-                id="XMLID_222_"
-                d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606  C255,161.018,253.42,157.202,250.606,154.389z"
-              />
-            </svg>
-          </div>
-          Prisma as my ORM for PostgreSQL
-        </div>
-      </a>
+      <Link title="Prisma as my ORM for PostgreSQL" link="https://prisma-talk.netlify.app/" />
       <div class="font-sans mt-2">
         <span class="chip">LyonJS Meetup</span>
         <span class="chip ml-2">July 2021</span>
       </div>
     </div>
     <div class="mt-8 mb-4">
-      <a href="https://fr.slideshare.net/CedricNicoloso/vue-testing-vue-sydney-meetup-dec-2017" target="_blank" rel="noopener" class="ced-link">
-        <div class="flex items-center">
-          <div class="w-3 mr-2">
-            <svg x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
-              <path
-                id="XMLID_222_"
-                d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606  C255,161.018,253.42,157.202,250.606,154.389z"
-              />
-            </svg>
-          </div>
-          Vue Testing
-        </div>
-      </a>
+      <Link
+        title="Vue Testing"
+        link="https://fr.slideshare.net/CedricNicoloso/vue-testing-vue-sydney-meetup-dec-2017"
+      />
       <div class="font-sans mt-2">
         <span class="chip">Vue Sydney Meetup</span>
         <span class="chip ml-2">Dec. 2017</span>
@@ -131,11 +117,13 @@
 </template>
 
 <script>
+import Link from './Link.vue'
 import WriteLink from './WriteLink.vue'
 import BooksRead from './BooksRead.vue'
 
 export default {
   components: {
+    Link,
     WriteLink,
     BooksRead,
   },
