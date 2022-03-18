@@ -2,7 +2,7 @@
   <div class="content-wrap">
     <h1 class="mt-5">I am</h1>
     <p>
-      A happy JavaScript full-stack developer at
+      Happy JavaScript full-stack developer at
       <a href="https://indy.fr/" target="_blank" rel="noopener" class="font-bold text-indy">Indy</a
       >&nbsp;🚀
     </p>
