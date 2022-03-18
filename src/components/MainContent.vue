@@ -52,10 +52,17 @@
 
     <h1 class="mt-16 sm:mt-20">I write</h1>
     <WriteLink
-      title="Prisma to interact with my DB"
-      written-at="October 2021"
-      link="https://medium.com/nerd-for-tech/prisma-to-interact-with-my-db-13da91562600"
+      title="From TypeScript Hater to TypeScript Convinced User"
+      written-at="February 2022"
+      link="https://javascript.plainenglish.io/from-typescript-hater-to-typescript-convinced-user-85cd0179c6aa"
     />
+    <div class="mt-6">
+      <WriteLink
+        title="Prisma to interact with my DB"
+        written-at="October 2021"
+        link="https://medium.com/nerd-for-tech/prisma-to-interact-with-my-db-13da91562600"
+      />
+    </div>
     <div class="mt-6">
       <WriteLink
         title="From vue-cli to vitejs"
