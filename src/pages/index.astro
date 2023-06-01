@@ -1,39 +1,44 @@
 ---
-import TopOrLeft from '../components/TopOrLeft.vue';
-import MainContent from '../components/MainContent.vue';
+import TopOrLeft from '../components/TopOrLeft.vue'
+import MainContent from '../components/MainContent.vue'
+
+import '../styles/tailwind.css'
 
 let title = 'CN - Home'
 ---
+
 <html lang="en">
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164740609-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
 
-      gtag('config', 'UA-164740609-1');
+      gtag('config', 'UA-164740609-1')
     </script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
     <title>{title}</title>
-    <meta name="description" content="Personal homepage of Cedric Nicoloso, JavaScript full-stack developer.">
+    <meta
+      name="description"
+      content="Personal homepage of Cedric Nicoloso, JavaScript full-stack developer."
+    />
 
     <link rel="icon" href="/favicon.ico" />
 
-    <link href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&amp;display=swap" rel="stylesheet">
-
     <link
+      href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap"
       rel="stylesheet"
-      href={Astro.resolve("../styles/tailwind.css")}
-    >
-    <link rel="stylesheet" href="/style/global.css">
-</head>
-<body>
+    />
+  </head>
+  <body>
     <TopOrLeft />
     <MainContent />
-</body>
+  </body>
 </html>
