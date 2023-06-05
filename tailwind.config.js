@@ -11,7 +11,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#001d6c',
+        primary: 'rgba(0,45,166,0.94)',
       },
       fontFamily: {
         sans: ['Helvetica', 'Arial', 'sans-serif'],
