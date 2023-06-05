@@ -1,42 +1,6 @@
 <template>
   <div class="content-wrap">
-    <h1 class="mt-5">I am</h1>
-    <p>A JavaScript full-stack developer&nbsp;🚀</p>
-    <p>A hands-on team manager&nbsp;👥</p>
-    <p>A CTO for an early-stage company&nbsp;🪄</p>
-    <p class="mt-10 font-sans">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="mb-[2px] mr-0.5 inline h-5 w-5"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
-        />
-      </svg>
-      Find my complete profile on
-      <a
-        href="https://www.linkedin.com/in/cedricnicoloso/"
-        class="text-primary hover:underline"
-        target="_blank"
-        rel="noopener"
-        >LinkedIn</a
-      >
-      or download a
-      <a
-        href="https://github.com/cedric25/resume/blob/main/CV-C%C3%A9dric-Nicoloso.pdf"
-        class="text-primary hover:underline"
-        target="_blank"
-        rel="noopener"
-        >one-page resume</a
-      >
-      (in French 🇫🇷)
-    </p>
+    <IAm />
 
     <h1 class="mt-16 sm:mt-20">I like</h1>
     <p>- to make architecture decisions and be accountable for them</p>
@@ -229,9 +193,11 @@
 import Link from './Link.vue'
 import WriteLink from './WriteLink.vue'
 import BooksRead from './BooksRead.vue'
+import IAm from './IAm.vue'
 
 export default {
   components: {
+    IAm,
     Link,
     WriteLink,
     BooksRead,
@@ -266,18 +232,5 @@ export default {
     padding: 3rem 5rem 9rem 5rem;
     margin-left: 500px;
   }
-}
-
-h1 {
-  display: inline-block;
-}
-h1::after {
-  content: ' ';
-  width: 80%;
-  display: block;
-  border: 2px solid #108775;
-  margin-top: 0.5rem;
-  margin-bottom: 0.25rem;
-  border-radius: 0.25rem;
 }
 </style>
