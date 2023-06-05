@@ -1,29 +1,29 @@
 <template>
-  <div class="bg-black md:fixed md:min-h-full md:flex md:flex-col md:w-72 lg:w-96 xl:w-128">
-    <div class="flex-1 flex flex-row items-center justify-center md:flex-col">
+  <div class="bg-black md:fixed md:flex md:min-h-full md:w-72 md:flex-col lg:w-96 xl:w-128">
+    <div class="flex flex-1 flex-row items-center justify-center md:flex-col">
       <div class="profile-picture mr-4 xs:mr-8 md:mr-0">
         <img
           src="/cedric-nicoloso.webp"
           alt="Cedric Nicoloso profile picture"
-          class="rounded-full w-16 xs:w-20 md:w-24 shadow-white"
+          class="w-16 rounded-full shadow-white xs:w-20 md:w-24"
           width="100"
           height="100"
         />
       </div>
       <div>
-        <h2 class="text-white opacity-50 text-2xl font-bold mt-6 sm:mb-2 md:mb-0 lg:mb-6">
+        <h2 class="mt-6 text-2xl font-bold text-white opacity-50 sm:mb-2 md:mb-0 lg:mb-6">
           Cedric Nicoloso
         </h2>
-        <div class="links flex items-center justify-center dl:flex-col lg:flex-row">
+        <div class="links flex items-center justify-center lg:flex-row">
           <a
             href="https://github.com/cedric25"
-            class="text-white opacity-50 p-4 mb-3 hover:opacity-100 mt-0 dl:mt-8 lg:mt-0"
+            class="mb-3 mt-0 p-4 text-white opacity-50 hover:opacity-100 lg:mt-0"
             target="_blank"
             rel="noopener"
             title="Github"
           >
             <svg
-              class="w-6 h-6"
+              class="h-6 w-6"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -38,13 +38,13 @@
           </a>
           <a
             href="https://twitter.com/glouby"
-            class="text-white opacity-50 p-4 mb-3 hover:opacity-100"
+            class="mb-3 p-4 text-white opacity-50 hover:opacity-100"
             target="_blank"
             rel="noopener"
             title="Twitter"
           >
             <svg
-              class="w-6 h-6"
+              class="h-6 w-6"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -59,7 +59,7 @@
           </a>
           <a
             href="https://www.linkedin.com/in/cedricnicoloso/"
-            class="text-white opacity-50 p-4 hover:opacity-100"
+            class="p-4 text-white opacity-50 hover:opacity-100"
             style="margin-bottom: 0.85rem"
             target="_blank"
             rel="noopener"
@@ -89,7 +89,7 @@
         </div>
       </div>
     </div>
-    <div class="text-white opacity-50 text-xss pl-3 pb-2 hidden lg:block">
+    <div class="hidden pb-2 pl-3 text-xss text-white opacity-50 lg:block">
       Design from
       <a href="https://bansal.io/" class="underline" target="_blank" rel="noopener">bansal.io</a>
     </div>

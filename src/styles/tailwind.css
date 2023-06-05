@@ -50,7 +50,7 @@ p {
   padding: 0.7em 0.9em 0.7em 0.9em;
   background-color: rgba(16, 135, 117, 0.1);
 }
-@screen dl {
+@screen lg {
   .ced-link {
     background: none;
   }
