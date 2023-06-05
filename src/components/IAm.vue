@@ -1,8 +1,8 @@
 <template>
   <h1 class="mt-5">I am</h1>
-  <p>A JavaScript full-stack developer&nbsp;🚀</p>
-  <p>A hands-on team manager&nbsp;👥</p>
-  <p>A CTO for an early-stage company&nbsp;🪄</p>
+  <p class="text-[17px]">A JavaScript full-stack developer&nbsp;🚀</p>
+  <p class="text-[17px]">A hands-on team manager&nbsp;👥</p>
+  <p class="text-[17px]">A CTO for an early-stage company&nbsp;🪄</p>
   <p class="mt-10 font-sans leading-7">
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -51,6 +51,6 @@
         /></svg
       >one-page resume</a
     >
-    (in French 🇫🇷)
+    &nbsp;<span class="whitespace-nowrap">(in French 🇫🇷)</span>
   </p>
 </template>

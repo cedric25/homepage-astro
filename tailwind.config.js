@@ -14,6 +14,7 @@ module.exports = {
         primary: 'rgba(0,45,166,0.94)',
       },
       fontFamily: {
+        fira: ['Fira Code', 'monospace'],
         sans: ['Helvetica', 'Arial', 'sans-serif'],
       },
       fontSize: {

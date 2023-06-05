@@ -3,33 +3,35 @@
     <IAm />
 
     <h1 class="mt-16 sm:mt-20">I like</h1>
-    <p>- to make architecture decisions and be accountable for them</p>
-    <p>- to empower a team to reach its full potential</p>
-    <p>- to constantly arbitrate between velocity and quality</p>
-    <p>- to enforce consistency across the code base</p>
-    <p>- to use the best available tools and tech</p>
-    <p class="mt-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="mb-[2px] inline h-5 w-5"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M5.25 8.25h15m-16.5 7.5h15m-1.8-13.5l-3.9 19.5m-2.1-19.5l-3.9 19.5"
-        />
-      </svg>
-      Tech
-    </p>
-    <p>
-      Vue.js, Vite, pinia, vitest, tailwindcss<br />Node.js, fastify, TypeScript<br />PostgreSQL,
-      Prisma<br />
-      Vercel, Netlify, Firebase, Supabase
-    </p>
+    <div class="text-[17px]">
+      <p>- to make architecture decisions and be accountable for them</p>
+      <p>- to empower a team to reach its full potential</p>
+      <p>- to constantly arbitrate between velocity and quality</p>
+      <p>- to enforce consistency across the code base</p>
+      <p>- to use the best available tools and tech</p>
+      <p class="mt-8">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="mb-[2px] inline h-5 w-5"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M5.25 8.25h15m-16.5 7.5h15m-1.8-13.5l-3.9 19.5m-2.1-19.5l-3.9 19.5"
+          />
+        </svg>
+        Tech
+      </p>
+      <p>
+        Vue.js, Vite, pinia, vitest, tailwindcss<br />Node.js, fastify, TypeScript<br />PostgreSQL,
+        Prisma<br />
+        Vercel, Netlify, Firebase, Supabase
+      </p>
+    </div>
 
     <h1 class="mt-16 sm:mt-20">I code</h1>
     <div class="ced-link-wrap">
@@ -37,7 +39,7 @@
         href="https://ages-and-birthdays.netlify.app/"
         target="_blank"
         rel="noopener"
-        class="ced-link"
+        class="ced-link text-[17px]"
       >
         <div class="flex items-center">
           <div class="mr-3">
@@ -63,7 +65,12 @@
       </span>
     </div>
     <div class="ced-link-wrap">
-      <a href="https://birthdays-qwik.netlify.app/" target="_blank" rel="noopener" class="ced-link">
+      <a
+        href="https://birthdays-qwik.netlify.app/"
+        target="_blank"
+        rel="noopener"
+        class="ced-link text-[17px]"
+      >
         <div class="flex items-center">
           <div class="mr-3">
             <img
@@ -92,7 +99,7 @@
         href="https://github.com/cedric25/node-api-starter"
         target="_blank"
         rel="noopener"
-        class="ced-link"
+        class="ced-link text-[17px]"
       >
         <div class="flex items-center">
           <div class="mr-3">

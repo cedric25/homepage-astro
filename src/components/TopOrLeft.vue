@@ -11,7 +11,7 @@
         />
       </div>
       <div>
-        <h2 class="mt-6 text-2xl font-bold text-white opacity-50 sm:mb-2 md:mb-0 lg:mb-6">
+        <h2 class="mt-6 font-fira text-2xl font-bold text-white opacity-50 sm:mb-2 md:mb-0 lg:mb-6">
           Cedric Nicoloso
         </h2>
         <div class="links flex items-center justify-center lg:flex-row">
@@ -89,7 +89,7 @@
         </div>
       </div>
     </div>
-    <div class="hidden pb-2 pl-3 text-xss text-white opacity-50 lg:block">
+    <div class="hidden pb-2 pl-3 font-fira text-xss text-white opacity-50 lg:block">
       Design from
       <a href="https://bansal.io/" class="underline" target="_blank" rel="noopener">bansal.io</a>
     </div>
