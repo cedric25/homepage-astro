@@ -1,7 +1,7 @@
 <template>
   <a :href="link" target="_blank" rel="noopener" class="ced-link">
     <div class="flex items-center">
-      <div class="w-3 mr-2 flex-shrink-0">
+      <div class="mr-2 w-3 flex-shrink-0">
         <svg x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
           <path
             id="XMLID_222_"
@@ -25,5 +25,3 @@ export default {
   },
 }
 </script>
-
-<style scoped></style>

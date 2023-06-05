@@ -1,6 +1,5 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./public/**/*.html', './src/**/*.{astro,js,jsx,svelte,ts,tsx,vue}'],
+  content: ['./public/**/*.html', './src/**/*.{astro,vue}'],
   theme: {
     screens: {
       xs: '400px',
@@ -12,11 +11,11 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
+      colors: {
+        primary: '#001d6c',
+      },
       fontFamily: {
         sans: ['Helvetica', 'Arial', 'sans-serif'],
-      },
-      textColor: {
-        indy: 'var(--color-indy)',
       },
       fontSize: {
         xss: '.7rem',

@@ -138,12 +138,12 @@
     link="https://www.amazon.fr/Partageons-Ce-Qui-Nous-Departage/dp/2952589526"
   >
     "You say it, you own it!", perfection game, ROTI, GTD, leadership,
-    <a href="https://blog.octo.com/" class="text-indy underline" target="_blank" rel="noopener"
+    <a href="https://blog.octo.com/" class="text-primary underline" target="_blank" rel="noopener"
       >blog.octo.com</a
     >,
     <a
       href="https://www.youtube.com/user/usievents"
-      class="text-indy underline"
+      class="text-primary underline"
       target="_blank"
       rel="noopener"
       >USI</a
