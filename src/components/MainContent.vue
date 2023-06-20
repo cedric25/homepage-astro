@@ -103,7 +103,13 @@
       >
         <div class="flex items-center">
           <div class="mr-3">
-            <img src="/node-logo.png" class="w-5" alt="Node.js icon" width="20" height="20" />
+            <img
+              src="/node-logo_100px.webp"
+              class="w-5"
+              alt="Node.js icon"
+              width="100"
+              height="115"
+            />
           </div>
           <div>node-api-starter</div>
         </div>
