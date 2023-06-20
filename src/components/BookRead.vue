@@ -33,9 +33,7 @@ export default {
   },
   computed: {
     imgAlt() {
-      console.log('this.cover', this.cover)
-      return ''
-      // return this.cover.split('.')[0].replaceAll('-', ' ')
+      return this.cover.split('.')[0].replaceAll('-', ' ')
     },
   },
 }
